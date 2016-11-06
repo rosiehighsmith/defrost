@@ -1,3 +1,8 @@
-<h1>All Exercises</h1>
-<%= @exercise.title %>
-<%= @exercise.description %>
+<h1 class = "text-center">All Exercises</h1>
+
+<% @exercises.each do |exercise| %>
+  <div class="booyah-box col-xs-10 col-xs-offset-1">
+  <b><%= exercise.title %></b><br /><br />
+  <%= exercise.description %><br />
+  </div>
+<% end %>
