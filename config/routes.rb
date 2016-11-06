@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'exercises#index'
-  resources :exercises
+  resources :exercises, only: [:new, :create]
+  resource :about
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

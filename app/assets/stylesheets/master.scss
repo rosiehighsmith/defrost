@@ -3,9 +3,11 @@ nav.navbar.navbar-inverse {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
-a.navbar-brand {
+.navbar-inverse a.navbar-brand {
   font-size: 24px;
-  font-weight: 100;
+  
+  color: #8A9BFF;
+  font-family: 'quicksandregular', sans-serif;
 }
 
 .booyah-box {
